@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	NodeFilter
+%define		pdir	XML
+%define		pnam	NodeFilter
 Summary:	XML::NodeFilter - generic node-filter class
 Summary(pl):	XML::NodeFilter - ogólna klasa do filtrowania wêz³ów
 Name:		perl-XML-NodeFilter
