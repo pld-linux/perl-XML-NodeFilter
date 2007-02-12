@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	NodeFilter
 Summary:	XML::NodeFilter - generic node-filter class
-Summary(pl):	XML::NodeFilter - ogólna klasa do filtrowania wêz³ów
+Summary(pl.UTF-8):   XML::NodeFilter - ogÃ³lna klasa do filtrowania wÄ™zÅ‚Ã³w
 Name:		perl-XML-NodeFilter
 Version:	0.01
 Release:	1
@@ -26,11 +26,11 @@ specified in the DOM Level 2 Traversal and Range specification. It
 extends that specification so this class is more easy to use for Perl
 programmers.
 
-%description -l pl
-XML::NodeFilter to ogólna klasa do filtrowania wêz³ów przy
+%description -l pl.UTF-8
+XML::NodeFilter to ogÃ³lna klasa do filtrowania wÄ™zÅ‚Ã³w przy
 przechodzeniu DOM wg specyfikacji "DOM Level 2 Traversal and Range".
-Rozszerza ona specyfikacjê w ten sposób, ¿e ta klasa jest ³atwiejsza w
-u¿yciu dla programistów perlowych.
+Rozszerza ona specyfikacjÄ™ w ten sposÃ³b, Å¼e ta klasa jest Å‚atwiejsza w
+uÅ¼yciu dla programistÃ³w perlowych.
  
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
