@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	NodeFilter
 Summary:	XML::NodeFilter - generic node-filter class
-Summary(pl.UTF-8):   XML::NodeFilter - ogólna klasa do filtrowania węzłów
+Summary(pl.UTF-8):	XML::NodeFilter - ogólna klasa do filtrowania węzłów
 Name:		perl-XML-NodeFilter
 Version:	0.01
 Release:	1
