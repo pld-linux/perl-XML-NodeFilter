@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	NodeFilter
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::NodeFilter - generic node-filter class
 Summary(pl.UTF-8):	XML::NodeFilter - ogólna klasa do filtrowania węzłów
 Name:		perl-XML-NodeFilter
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a585cd03435fc51ead427aa2c82b40a3
+URL:		http://search.cpan.org/dist/XML-NodeFilter/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -31,7 +32,7 @@ XML::NodeFilter to ogólna klasa do filtrowania węzłów przy
 przechodzeniu DOM wg specyfikacji "DOM Level 2 Traversal and Range".
 Rozszerza ona specyfikację w ten sposób, że ta klasa jest łatwiejsza w
 użyciu dla programistów perlowych.
- 
+
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
