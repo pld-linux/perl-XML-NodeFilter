@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	NodeFilter
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::NodeFilter - generic node-filter class
 Summary(pl.UTF-8):	XML::NodeFilter - ogólna klasa do filtrowania węzłów
 Name:		perl-XML-NodeFilter
